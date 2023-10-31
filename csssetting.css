@@ -5,14 +5,12 @@ body {
   }
 
   .center-me{
-    
     text-align: justify; 
   -moz-text-align-last: center; 
   text-align-last: center;
-    margin: auto;
+    margin: 0;
   width: 450px;
   background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
   padding: 5px;
   
  
@@ -37,8 +35,7 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 footer {
     background-color: #8EC5FC;
 background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-
-    padding: 20px 10px;
+    padding: 10px 10px;
   }
   
   /* Sets all link texts to white and puts margin to the left and right */
@@ -56,29 +53,6 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
   /* desktop and Under */
 
-@media(max-width: 1920px)
-@media(min-width: 360px)
-    .img1{
-
-    }
-    .grid,
-    .grid-3 {
-      grid-template-columns: 1fr;
-    }
-
-
-    .h2 {
-        text-align: justify; /* For Edge */
-  -moz-text-align-last: center; /* For Firefox prior 58.0 */
-  text-align-last: center;
-    }
-
-    .h3 {
-        text-align: justify; /* For Edge */
-  -moz-text-align-last: center; /* For Firefox prior 58.0 */
-  text-align-last: center;
-    }
-
-    .gif1 {
-      
-    }
+@media(max-width: 1920px) {
+  
+}

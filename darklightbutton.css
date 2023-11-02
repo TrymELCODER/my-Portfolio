@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    transition: background-color 0.5s;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff; /* Change text color to white in dark mode */
+}
+
+#mode-toggle {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -9,7 +9,7 @@ body {
   text-align-last: center;
     margin: 0;
   width: 450px;
-  background-color: #8EC5FC;
+  
   padding: 5px;
   
  
@@ -18,8 +18,6 @@ body {
 
   .img1 {
     background-color: transparent;
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);    
       height:146px;
       position: relative;
       top: -30px;
@@ -32,8 +30,6 @@ body {
 
 
 footer {
-    background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     padding: 10px 10px;
   }
   

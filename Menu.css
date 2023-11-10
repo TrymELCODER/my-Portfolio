@@ -1,15 +1,17 @@
+
 /* Style for the menu button and links */
 .menu-button {
-    @media screen (max-height: 340px) {
+    @media screen (max-height: 748px) {
         
     }
     position: absolute;
     top: 10px;
-    right: 140px;
-    background-color: #3498db;
-    color: #fff;
-    padding: 15px 20px;
-    border-radius: 5px;
+    right: 120px;
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+    padding: 12px 12px;
+    border-radius: 3px;
     cursor: pointer;
     z-index: 1;
 }
@@ -43,10 +45,13 @@
     background-color: #ddd;
 }
 
-/* Show the menu list when hovering over the menu button */
+/*Show the menu list when hovering over the menu button */
+
 .menu-button:hover .menu-list {
     @media screen (max-height: 340px) {
         
     }
     display: block;
 }
+
+

@@ -1,0 +1,12 @@
+
+
+.portfolio-container {
+    position: fixed;
+    top: 143px;
+    right: 880px;
+}
+
+.portfolio-item img {
+    max-width: 143px; /* Adjust the size as needed */
+    height: auto;
+}

@@ -3,41 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpage🙂</title>
-    <link rel="stylesheet" href="csssetting.css">
-    <link rel="stylesheet" href="Menu.css">
-    <link rel="stylesheet" href="darklightbutton.css">
-    <link rel="stylesheet" href="apicontainer.css">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="imghover/imghover.css">
+    <link rel="stylesheet" href="/imghover/darklight.css">
+    <link rel="stylesheet" href="/imghover/portfolioimage.css">
+    <link rel="stylesheet" href="/imagesP1/topbar/textanimation.css">
 </head>
 <body>
-  <button id="mode-toggle">Dark Mode</button>
-    <script src="Darklightbutton.js"></script>
-    <footer>
-        <div class="container grid-3">
-          <div class="copyright">
-            <h1>Welcome to my Webpage🙂</h1>
-            <p>2023</p>
-            <h5>Click the Menu button top right to know more🙂</h5>
-          <div class="menu-button">
-            Menu
-            <div class="menu-list">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Me</a>
-                <a href="contact.html">Contact</a>
-            </div>
 
-            <div>
-              <p>
-              <div class="apicontainer" id="data-container">
-                <h4>Api Test</h4>
-                <!-- Data will be displayed here -->
-            </div>
-          </p>
-            </div>
+
+
+  <div id="container">
+    <div id="info">
+
+
+  <!-- The container for the animated text -->
+  <div id="animation-container">
+    <h1 id="animated-text"></h1>
+    <span class="cursor"></span>
+  </div>
   
-    <script src="ajax.js"></script>
-    <script src="API.js"></script>
-   <script src="menu.js"></script>
-   <script src="Darklightbutton.js"></script>
+       <p>About Me,</p>
+       <p>My Name; Trym Larsen</p>
+       <p> Age; 23;</p>
+       <p> From; Norway;</p>
+        <p>I have a passion for gaming, video editing, and programming. </p>
+       <p>Contact Me, </p>
+        <p>Email; trymel.koder@gmail.com</p>
+        <ul>
+          <p>My Github Projects</p>
+          <li><a href="https://github.com/TrymELCODER/JavaScript-test.git">Repository 1</a></li>
+          <li><a href="https://github.com/TrymELCODER/HTML-STRUKTUR.git">Repository 2</a></li>
+          <li><a href="https://github.com/TrymELCODER/Visual-code-projects.git">Repository 3</a></li>
+          <li><a href="https://github.com/TrymELCODER/project.git">Repository 4</a></li>
+          <li><a href="https://github.com/TrymELCODER/ToDo-list.git">Repository 5</a></li>
+          <li><a href="https://github.com/TrymELCODER/full-kalkulator-2023.git">Repository 6</a></li>
+          <li><a href="https://github.com/TrymELCODER/Oppgaven-for-Emoji.git">Repository 7</a></li>
+          <li><a href="https://github.com/TrymELCODER/HTML-STRUKTUR-main.git">Repository 8</a></li>
+          <li><a href="https://github.com/TrymELCODER/f-rste-project-Aug-28th-mobile-fix.git">Repository 9</a></li>
+          <!-- Add more items as needed -->
+      </ul>
+      
+
+   
+
+
+      <div class="portfolio-container">
+        <div class="portfolio-item">
+            <img src="/imagesP1/portfolio bilde.png" alt="Image 1">
+            </div>
+        </div>
+      
+
+        <div id="toggle-container">
+          <div id="toggle-btn" onclick="toggleMode()">
+              <div id="toggle-circle"></div>
+          </div>
+          Toggle Mode
+      </div>
+
+
+
+    </div>
+
+    <div id="photos">
+        <div class="photo">
+            <img src="/imagesP1/green nature 1.jpeg" alt="Image 1">
+        </div>
+
+        <div class="photo">
+            <img src="/imagesP1/tree pg 2.png" alt="Image 2">
+        </div>
+
+        <div class="photo">
+            <img src="/imagesP1/photo pg 3.jpeg" alt="Image 3">
+        </div>
+    </div>
+</div>
+
+
+
+   <script src="/imagesP1/topbar/textanimation.js"></script>
+   <script src="/darklight.js"></script>
 </body>
 </html>

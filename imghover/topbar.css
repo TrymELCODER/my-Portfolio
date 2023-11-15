@@ -1,0 +1,22 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid white;
+  }
+
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+
+  section {
+    padding: 20px;
+  }

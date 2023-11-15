@@ -1,25 +1,14 @@
-const modeToggle = document.getElementById('mode-toggle');
-const body = document.body;
+function toggleMode() {
+    const body = document.body;
+    body.classList.toggle('dark-mode');
 
-// Check if the user has a preference for dark mode
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    enableDarkMode();
+    // Save the current mode to local storage
+    const isDarkMode = body.classList.contains('dark-mode');
+    localStorage.setItem('darkMode', isDarkMode);
 }
 
-modeToggle.addEventListener('click', () => {
-    if (body.classList.contains('dark-mode')) {
-        enableLightMode();
-    } else {
-        enableDarkMode();
-    }
-});
-
-function enableDarkMode() {
-    body.classList.add('dark-mode');
-    modeToggle.textContent = 'Light Mode';
-}
-
-function enableLightMode() {
-    body.classList.remove('dark-mode');
-    modeToggle.textContent = 'Dark Mode';
+// Check for previously saved mode in local storage
+const savedMode = localStorage.getItem('darkMode');
+if (savedMode === 'true') {
+    document.body.classList.add('dark-mode');
 }
